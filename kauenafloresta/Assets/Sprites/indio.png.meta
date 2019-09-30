@@ -1,7 +1,10 @@
 fileFormatVersion: 2
-guid: ee18921e0f00b1848bfe7e1e2796d1bd
+guid: 5264d0ab2e6487242838a66c50bbaa88
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: indio_0
+    21300002: indio_1
+    21300004: indio_2
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -40,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,13 +72,84 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: indio_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 4
+        width: 57
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e98362b72c4b644bbdfd25f4369d36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indio_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 4
+        width: 57
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152c2eb2bf8dba245b3f7005c2eebc43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indio_2
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 4
+        width: 56
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5797e895b465a2546a732bad717fb8c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 2a0e1cb5562f6a64dbce41146ee516b0
+    spriteID: 4ebfb519f29a2eb4d8c6f278e650aa01
     vertices: []
     indices: 
     edges: []
