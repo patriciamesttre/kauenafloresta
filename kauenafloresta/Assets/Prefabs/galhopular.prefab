@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1007380507673880733}
   - component: {fileID: 1007380507673880734}
   - component: {fileID: 3304998660544628968}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: galhopular
   m_TagString: Untagged
   m_Icon: {fileID: 0}
