@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4059049235623434321}
   - component: {fileID: 4059049235623434322}
+  - component: {fileID: 413593477572688559}
+  - component: {fileID: 1171704408458913675}
   m_Layer: 0
   m_Name: peixe 1
   m_TagString: Untagged
@@ -80,3 +82,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &413593477572688559
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4059049235623434323}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.12561727, y: -0.12550074}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.72, y: 4.09}
+    newSize: {x: 3.72, y: 4.09}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.2175312, y: 3.5686893}
+  m_EdgeRadius: 0
+--- !u!114 &1171704408458913675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4059049235623434323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7d7e01064c92bd4d80f364752c43219, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
