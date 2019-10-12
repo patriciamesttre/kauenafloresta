@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Jogo : MonoBehaviour
 {
+    
     private int pontos;
     public Text pontosText;
 
@@ -26,6 +27,8 @@ public class Jogo : MonoBehaviour
             AtualizarVida();
             vidas = PlayerPrefs.GetInt("vidas");
         }
+
+        
     }
 
     void AtualizarPontos()
@@ -73,13 +76,29 @@ public class Jogo : MonoBehaviour
     public void CarregaFase1()
     {
         PlayerPrefs.SetInt("pontos", 0);
+        PlayerPrefs.SetInt("vidas", 3);
         SceneManager.LoadScene("Fase1");
     }
+
+    public void CarregaFase2()
+    {
+       
+        SceneManager.LoadScene("Fase2");
+    }
+
+
 
 
     public void CarregaIntroducao(){
         SceneManager.LoadScene("Introducao");
     }
+
+    public void CarregaCreditos()
+    {
+        SceneManager.LoadScene("Creditos");
+    }
+
+  
 
     public void EncerrarJogo(){
         Application.Quit();
