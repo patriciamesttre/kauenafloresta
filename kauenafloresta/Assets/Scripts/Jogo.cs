@@ -60,13 +60,20 @@ public class Jogo : MonoBehaviour
     {
         if (vidas < 0)
         {
-            SceneManager.LoadScene("GameOver");
+            GameOver();
         }
         else
         {
             vidaText.text = "Vidas: " + PlayerPrefs.GetInt("vidas");
         }
     }
+
+    public void GameOver()
+    {
+        SceneManager.LoadScene("GameOver");
+    }
+
+
     // Update is called once per frame
     void Update()
     {
@@ -86,6 +93,11 @@ public class Jogo : MonoBehaviour
         SceneManager.LoadScene("Fase2");
     }
 
+    public void CarregaVoceVenceu()
+    {
+
+        SceneManager.LoadScene("VoceVenceu");
+    }
 
 
 
@@ -98,7 +110,11 @@ public class Jogo : MonoBehaviour
         SceneManager.LoadScene("Creditos");
     }
 
-  
+    public void CarregaMenuIniciar()
+    {
+        SceneManager.LoadScene("MenuInicial");
+    }
+
 
     public void EncerrarJogo(){
         Application.Quit();
